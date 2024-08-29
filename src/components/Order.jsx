@@ -46,7 +46,7 @@ const Order = () => {
                                 <h4 className='bold-18'>₦{getTotalCartAmount()=== 0 ? 0:getTotalCartAmount()+200}</h4>
                             </div>
                         </div>
-                        <button className='btn-secondary w-52 rounded' onClick={() => navigate('/order')}>Proceed to Checkout</button>
+                        <button className='btn-secondary w-52 rounded' onClick={() => navigate('/')}>Proceed to Checkout</button>
                     </div>
                 </div>
 
